@@ -1,0 +1,175 @@
+img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.jumbotron {
+    background-color: #333;
+    text-align: center;
+}
+
+body {
+    background-color: teal;
+}
+
+.info {
+
+}
+
+.kiri {
+    text-align: center;
+    border-bottom: 3px solid teal;
+    background-color: lightgray;
+    height: 250px;
+    float: left;
+    width: 49%;
+}
+
+.kiri2 {
+    text-align: center;
+    border-bottom: 3px solid teal;
+    background-color: lightgray;
+    height: 250px;
+    float: left;
+    width: 49%;
+}
+
+.kiri3 {
+    text-align: center;
+    border-bottom: 3px solid teal;
+    background-color: lightgray;
+    height: 500px;
+    float: left;
+    width: 49%;
+}
+
+
+.kanan {
+    text-align: left;
+    background-color: lightgray;
+    float: right;
+    height: 1000px;
+    width: 50%;
+    border-left: 3px solid teal;
+    padding-left: 5px;
+
+}
+
+
+.header {
+    background-color: lightgray;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    border-bottom: 3px solid teal;
+}
+
+.left {
+    margin-right: 25px;
+    text-align: right;
+    width: 50%;
+
+}
+
+.right {
+    text-align: left;
+    background-color: lightgray;
+    border-radius: 5%;
+
+    transition: all linear 0.2s;
+
+}
+
+.right1 {
+    border-left: 5px solid teal;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+li {
+    list-style: none;
+    display: block;
+}
+
+.right2 {
+    font-family: fantasy;
+    margin-left: 50px
+}
+
+h4 {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.skillkotak {
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    margin-right: 50px;
+    border-radius: 5%;
+}
+
+.skill {
+    text-align: left;
+}
+
+.skillspace {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    display: inline;
+}
+
+.skillkotak1 {
+    width: 75%;
+    height: 50px;
+    background-color: green;
+    margin-right: 5%;
+}
+
+.desk {
+    text-align: center;
+    border-bottom: 3px solid teal;
+}
+
+.skilltitle {
+    text-align: center;
+}
+
+.skillkotak2 {
+    width: 60%;
+    height: 50px;
+    background-color: green;
+    margin-right: 5%;
+}
+
+.skillkotak3 {
+    width: 95%;
+    height: 50px;
+    background-color: green;
+    margin-right: 5%;
+}
+
+.all {
+    margin: 50px;
+}
+
+.right1:hover {
+    background-color: teal;
+    border-left: 5px solid black;
+}
+
+h1:hover {
+    color: lightgray;
+    transition: all linear 0.2s;
+}
+
+.right:hover {
+    background-color: teal;
+    transition: all linear 0.2s;
+}
